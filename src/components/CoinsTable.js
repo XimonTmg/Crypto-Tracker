@@ -18,7 +18,7 @@ import {
 } from "@material-ui/core";
 import axios from "axios";
 import { CoinList } from "../config/api";
-import { useNavigate, useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { CryptoState } from "../CryptoContext";
 
 export function numberWithCommas(x) {
